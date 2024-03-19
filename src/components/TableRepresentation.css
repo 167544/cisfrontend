@@ -1,0 +1,51 @@
+/* TableRepresentation.css */
+
+/* Hide the scrollbar but allow scrolling */
+::-webkit-scrollbar {
+    width: 0;
+  }
+  
+  /* Hide scrollbar track */
+  ::-webkit-scrollbar-track {
+    display: none;
+  }
+  
+  /* Hide scrollbar handle */
+  ::-webkit-scrollbar-thumb {
+    display: none;
+  }
+  
+  /* Container for the table */
+  .table-container {
+    width: 100%;
+    margin: 20px auto;
+    overflow-x: auto;
+  }
+  
+  /* Make the table responsive */
+  .table-responsive {
+    overflow-y: auto;
+  }
+  
+  /* Styling for the table */
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+  }
+  
+  .table th, .table td {
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th, td {
+    padding: 5px;
+  }
+  
+  @media (max-width: 768px) {
+    .table {
+      font-size: 14px;
+    }
+  }
+  
